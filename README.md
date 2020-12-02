@@ -29,8 +29,17 @@ The lib is available on Maven Central, you can find it with [Gradle, please]
 
 ```
 dependencies {
-    compile 'com.github.dmytrodanylyk.shadow-layout:library:1.0.3'
+    implementation 'com.github.dmytrodanylyk.shadow-layout:library:1.0.4'
 }
+```
+
+### Supported Attributes
+```
+<attr name="sl_cornerRadius" format="dimension"/>
+<attr name="sl_shadowRadius" format="dimension"/>
+<attr name="sl_shadowColor" format="color"/>
+<attr name="sl_dx" format="dimension"/>
+<attr name="sl_dy" format="dimension"/>
 ```
 
 ### Contributions
